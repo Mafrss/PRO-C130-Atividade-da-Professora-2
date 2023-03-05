@@ -105,7 +105,7 @@ while True:
     # Desenhar pontos de referência
     drawHandLanmarks(image, hand_landmarks)
 
-    # GObter posição dos dedos das mãos        
+    # Obter posição dos dedos das mãos        
     countFingers(image, hand_landmarks)
 
     cv2.imshow("Controlador de Mídia", image)
